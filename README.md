@@ -1,4 +1,4 @@
-# Genetic Algorithm Practice: Breeding Rats v0.2 - by asFarr
+# Genetic Algorithm: Breeding Rats v0.2 - by asFarr
 
 
 Project is based on a chapter from Impractical Python Projects by: Lee Vaughan
