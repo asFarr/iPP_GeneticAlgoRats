@@ -1,3 +1,18 @@
+"""
+Genetic Algorithm Practice: Breeding Rats v0.2 - by asFarr : 2/25/22
+
+Project is based on a chapter from Impractical Python Projects by: Lee Vaughan
+
+Implements a simple genetic algorithm to 'breed rats' as a demonstration of refining labelled 
+and weighted data stochastically over successive epochs to fit to parameterized constraints.
+
+...At least that's my high-level takeaway, though I fully admit I might have butchered it in an attempt at brevity. 
+
+I have departed from the scope of the original book project in order to explore TKinter, TTK, and Matplotlib 
+to study applying those modules for UI-driven data visualization. 
+
+"""
+
 import time
 import statistics as stat
 import random as rn
@@ -64,7 +79,7 @@ class Application(tk.Tk):
         tk.Tk.__init__(self, *args, **kwargs)
 
         tk.Tk.iconbitmap(self, default="favicon.ico")
-        tk.Tk.wm_title(self, "Genetic Algorithm v0.1 -- written by Alex F")
+        tk.Tk.wm_title(self, "Genetic Algorithm v0.2 -- written by Alex F")
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
